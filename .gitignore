@@ -31,3 +31,11 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Python ###
+__pycache__/
+*.pyc
+.venv/
+.env
+*.db
+.pytest_cache/
