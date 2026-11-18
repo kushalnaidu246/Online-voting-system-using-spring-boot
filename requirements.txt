@@ -1,0 +1,7 @@
+fastapi>=0.110
+uvicorn[standard]>=0.29
+sqlalchemy>=2.0
+# For MySQL (the original Spring app used it): pip install pymysql
+# and set DATABASE_URL=mysql+pymysql://user:password@localhost:3306/vote
+pytest>=8
+httpx>=0.27
